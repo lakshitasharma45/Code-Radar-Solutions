@@ -4,5 +4,5 @@ int main() {
     printf("");
     scanf("%d" "%d", &a &b);
     printf("Product: %f",a*b);
-    return f;
+    return 0;
 }
