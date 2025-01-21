@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main() {
     char ch;
-    isupper(ch)=%X;
+    void function(isupper(ch)=%X);
+    void function(islower(ch)=%x);
     islower(ch)=%x;
     printf("");
     scanf("%c", &ch);
