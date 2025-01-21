@@ -4,8 +4,8 @@ int main () {
     printf("");
     scanf("%d %d", &a,&b);
     if(a>b){
-        printf(a);
+        printf("%d",a);
     }
-    else{ printf(b);}
+    else{ printf("%d",b);}
     return 0;
 }
