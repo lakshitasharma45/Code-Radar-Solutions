@@ -1,9 +1,7 @@
 #include <stdio.h>
+#include<ctype.h>
 int main() {
     char ch;
-    void function(isupper(ch)==%X);
-    void function(islower(ch)==%x);
-    islower(ch)=%x;
     printf("");
     scanf("%c", &ch);
     if(isupper(ch)) {printf("Uppercase");}
