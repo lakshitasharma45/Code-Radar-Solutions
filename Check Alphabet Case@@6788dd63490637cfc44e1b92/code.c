@@ -6,6 +6,6 @@ int main() {
     scanf("%c", &ch);
     if(isupper(ch)) {printf("Uppercase");}
     else if (islower(ch)) {printf("Lowercase");}
-    else { printf("Not an alphabet")}
+    else { printf("Not an alphabet");}
     return 0;
 }
