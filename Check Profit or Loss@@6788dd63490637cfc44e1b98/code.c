@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main () {
-    int c,p;
+    int c,s;
     printf("");
-    scanf("%d %d",&c,&p);
+    scanf("%d %d",&c,&s);
     if (s>c) {printf("Profit");}
     else if(c>s) {printf("Loss");}
     else {printf("No Profit or Loss");}
