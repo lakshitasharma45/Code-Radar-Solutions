@@ -1,12 +1,12 @@
 #include <stdio.h>
+#include<ctype.h>
 int main(){
     char ch;
-    Vowel=a,e,i,o,u;
     printf("");
     scanf("%c",&ch);
-    if ((ch==a) ||(ch==e)||(ch==i)||(ch==o)||(ch==u)) {
+    if (isVowel(char(ch))) {
         printf("Vowel");}
-    else if(!((ch==a)||(ch==e)||(ch==i)||(ch==o)||(ch==u))) {
+    else if (!(isVowel(char(ch)))) {
         printf("Consonant");}
     else if(ch==1,2,3,4,5,6,7,8,9) {
         printf("Digit");}
