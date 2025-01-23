@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    intma;
+    int a;
     printf("");
     scanf("%d",&a);
     if((a>1)&&(a%1==0)&&(a%a==0)) {printf("Prime");}
