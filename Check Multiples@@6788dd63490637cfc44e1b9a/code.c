@@ -5,5 +5,5 @@ int main() {
     scanf("%d %d",&a,&b);
     if (a%b==0) {printf("Yes");}
     else {printf("No");
-    retun 0;}
+    return 0;}
 }
