@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    int a=30,b=31,c=28;printf("");scanf("%d",&a);
+    int x;
+    int a=30,b=31,c=28;printf("");scanf("%d",&x);
     switch(a) {
     case 1:{printf("%d",b);break;}case 2:{printf("%d",c);break;}
     case 3:{printf("%d",b);break;}case 4:{printf("%d",a);break;}
