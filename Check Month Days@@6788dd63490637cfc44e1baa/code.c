@@ -2,7 +2,7 @@
 int main(){
     int x;
     int a=30,b=31,c=28;printf("");scanf("%d",&x);
-    switch(a) {
+    switch(x) {
     case 1:{printf("%d",b);break;}case 2:{printf("%d",c);break;}
     case 3:{printf("%d",b);break;}case 4:{printf("%d",a);break;}
     case 5:{printf("%d",b);break;}case 6:{printf("%d",a);break;}
