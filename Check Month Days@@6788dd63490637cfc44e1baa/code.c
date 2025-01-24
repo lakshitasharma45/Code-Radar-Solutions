@@ -6,7 +6,7 @@ int main(){
     case 3:{printf("%d",b);break;}case 4:{printf("%d",a);break;}
     case 5:{printf("%d",b);break;}case 6:{printf("%d",a);break;}
     case 7:{printf("%d",b);break;}case 8:{printf("%d",b);break;}
-    case 9:{printf("%d",a);break;}case 10:{printf("%d",a);break;}
+    case 9:{printf("%d",a);break;}case 10:{printf("%d",b);break;}
     case 11:{printf("%d",a);break;}case 12:{printf("%d",b);break;}
     default:{printf("Invalid month");}
     }
