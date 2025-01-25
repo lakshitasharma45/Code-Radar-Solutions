@@ -2,7 +2,10 @@
 int main() {
     int a,b;char c;
     printf("");scanf("%d %d %c",&a,&b,&c);
-    int sum=(a+b);int diff=(a-b);int product=(a*b);int div=(a/b);
+    int sum=(a+b);
+    int diff=(a-b);
+    int product=(a*b);
+    int div=(a/b);
     switch(c) {
         case '+':
             printf("%d\n",sum);
