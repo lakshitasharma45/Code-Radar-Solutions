@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 int main() {
-    int a,b;char c;
-    printf("");scanf("%d %d %c",&a,&b,&c);
-    switch(c) {
+    int a,b;char ch;
+    printf("");scanf("%d %d %c",&a,&b,&ch);
+    switch(ch) {
         case '+': printf("%d",a+b);break;
         case '-' :printf("%d",a-b);break;
         case '*' :printf("%d",a*b);break;
