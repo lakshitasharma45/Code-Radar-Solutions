@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int a,b;char c;
-    printf("");scanf("%d %d %c",&a,&b,&c);
+    scanf("%d %d %c",&a,&b,&c);
     int sum=(a+b);
     int diff=(a-b);
     int product=(a*b);
