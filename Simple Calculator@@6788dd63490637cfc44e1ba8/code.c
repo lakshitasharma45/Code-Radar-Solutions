@@ -3,11 +3,12 @@
 int main() {
     int a,b;char c;
     printf("");scanf("%d %d %c",&a,&b,&c);
-    switch(ch) {
-        case '+': printf("%d+%d",a+b);break;
-        case '-' :printf("%d+%d",a-b);break;
-        case '*' :printf("%d",a*b);break;
-        case '/' :printf("%d",a/b);break;
+    switch(c) {
+        int sum=(a+b);int diff=(a-b);int product=(a*b);int div=(a/b);
+        case '+': printf("%d",sum);break;
+        case '-' :printf("%d",diff);break;
+        case '*' :printf("%d",product);break;
+        case '/' :printf("%d",div);break;
         default :printf("error");break;
     }
     return 0;
