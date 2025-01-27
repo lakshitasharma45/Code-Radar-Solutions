@@ -5,5 +5,5 @@ int main(){
     for (i=0;i<=a;i++){
         printf("%d ",i);
     }
-    retrun 0;
+    return 0;
 }
