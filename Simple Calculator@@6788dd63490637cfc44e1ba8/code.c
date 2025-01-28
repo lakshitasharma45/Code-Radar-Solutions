@@ -8,22 +8,13 @@ int main() {
     int product=(a*b);
     int div=(a/b);
     switch(c) {
-        case '+':
-            printf("%d",sum);
-            break;
-        case '-' :
-            printf("%d",diff);
-            break;
-        case '*' :
-            printf("%d",product);
-            break;
-        case '/' :
-            printf("%d",div);
-            break;
-        default :
-            printf("error");
-            break;}
-            return  0;
+        case '+':printf("%d",sum);break;
+        case '-' :printf("%d",diff);break;
+        case '*' :printf("%d",product);break;
+        case '/' :printf("%d",div);break;
+        default : printf("error");break;
+        }
+        return  0;
 }
 }    
 
