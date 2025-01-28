@@ -2,14 +2,11 @@
 #include<ctype.h>
 int main(){
     char ch;
-    printf("");
     scanf("%c",&ch);
-    if (isVowel(char ch)) {
-        printf("Vowel");}
-    else if (!(isVowel(char ch))) {
-        printf("Consonant");}
-    else if((ch>=1)&&(ch<10)) {
-        printf("Digit");}
+    if(isalpha(ch)){
+        if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){printf("Vowel");}
+        else{printf("Consonant");}}
+    else if(isdigit(ch)){printf("Digit");}
     else { printf("Special Character");}
     return 0;
 }
