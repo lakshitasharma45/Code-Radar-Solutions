@@ -8,19 +8,19 @@ int main() {
     int div=(a/b);
     switch(c) {
         case '+':
-            printf("%d\n",sum);
+            printf("%d",sum);
             break;
         case '-' :
-            printf("%d\n",diff);
+            printf("%d",diff);
             break;
         case '*' :
-            printf("%d\n",product);
+            printf("%d",product);
             break;
         case '/' :
-            printf("%d\n",div);
+            printf("%d",div);
             break;
         default :
-            printf("error\n");
+            printf("error");
             break;}
             return  0;
 }
