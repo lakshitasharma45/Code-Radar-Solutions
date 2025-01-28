@@ -14,8 +14,7 @@ int main() {
         case '/' : printf("%d",div);break;
         default : printf("error");break;
         }
-        return  0;
-}
+        return  0;}
 }    
 
 
