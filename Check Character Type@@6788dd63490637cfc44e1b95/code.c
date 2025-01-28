@@ -4,7 +4,7 @@ int main(){
     char ch;
     printf("");
     scanf("%c",&ch);
-    if (is_Vowel(char ch)) {
+    if (isvowel(char ch)) {
         printf("Vowel");}
     else if (!(isVowel(char ch))) {
         printf("Consonant");}
