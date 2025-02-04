@@ -13,7 +13,7 @@ int main() {
         case '*' : printf("%d",product);break;
         case '/' : 
             if ((b==0)) {printf("error");}
-        else {printf("%d",div);} break;
+            else {printf("%d",div);}break;
         }
         return  0;
 } 
