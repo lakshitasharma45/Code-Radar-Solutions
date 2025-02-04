@@ -11,7 +11,8 @@ int main() {
         case '+' : printf("%d",sum);break;
         case '-' : printf("%d",diff);break;
         case '*' : printf("%d",product);break;
-        case '/' : if (!(b==0)) printf("%d",div); else {printf("error");} break;
+        case '/' : 
+        if (!(b==0)) {printf("%d",div)}; else {printf("error");} break;
         default : printf("error");break;
         }
         return  0;
