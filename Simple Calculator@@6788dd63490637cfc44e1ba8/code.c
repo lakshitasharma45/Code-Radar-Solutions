@@ -14,6 +14,7 @@ int main() {
         case '/' : 
             if ((b==0)) {printf("error");}
             else {printf("%d",div);}break;
+        default: printf("error");    
         }
         return  0;
 } 
