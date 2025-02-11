@@ -5,7 +5,7 @@ int main(){
     int i,j;
     for(i=0,i<=n,i++){
         for(j=0,j<=(2n-1),j++){
-            if((i+j>=n+i) && (i+j<=n-i) ) {printf("*");}
+            if(((i+j)>=(n+i)) && ((i+j)<=(n-i)) ) {printf("*");}
             else {printf(" ");}
             }
             printf("\n");
