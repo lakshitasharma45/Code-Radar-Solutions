@@ -5,10 +5,8 @@ int main(){
     int i,j;
     for(i=0;i<n;i++){
         for(j=0;j<i+1;j++){
-            printf(i );}
-            else{printf(" ");
-            }
+            printf("%d",j+1);}
             printf("\n");
-        }
-        return 0;
+            }
+           return 0; 
         }
