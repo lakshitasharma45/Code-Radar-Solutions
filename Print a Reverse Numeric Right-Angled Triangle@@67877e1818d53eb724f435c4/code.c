@@ -4,8 +4,11 @@ int main(){
     scanf("%d",&n);
     int i,j;
     for(i=0;i<n;i++){
-        for(j=0;j<i-1;j++){
-            printf("%d",j+1);
+        for(j=0;j<n;j++){
+            if((i+j)<=(n-1)){
+            printf("%d",j+1);}
+            else{printf(" ");
+            }
         }
         printf("\n");
     }
