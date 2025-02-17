@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int num;
-    printf(""); scanf("%d",&num);
+    scanf("%d",&num);
     switch(num) {
         case 1: printf("Monday");break;
         case 2: printf("Tuesday");break;
